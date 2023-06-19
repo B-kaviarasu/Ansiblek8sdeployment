@@ -1,0 +1,6 @@
+---
+- name: Deploy NGINX to Kubernetes
+  hosts: ansible_client
+  roles:
+    - ubuntu
+
