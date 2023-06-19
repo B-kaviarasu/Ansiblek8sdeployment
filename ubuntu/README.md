@@ -11,4 +11,4 @@ Next, I create the playbook file: saran
 
 Next, I run the playbook using ansible-playbook saran
 
-finally, I exposes to webapp using the port 8080
+finally, I exposed to webapp using the port 8080
