@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Ansiblek8sdeployment_1698395286241-pr-trigger-input-set
+  identifier: Build_Ansiblek8sdeployment_1698395286241prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Ansiblek8sdeployment_1698395286241
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
